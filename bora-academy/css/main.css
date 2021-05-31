@@ -1,80 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
 body{
+    font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-.menu{
+header{
     background-color: #2F2E2E;
-    position: fixed;
     width: 100%;
-    height: 50px;
-    left: 0;
-    top: 0;
-}
-
-ul.menu1{
-    list-style-type: none;
-    font-size: 14px;
+    height: 65px;
     text-align: center;
 }
-
-li.menu1{
-    display: inline-block;
-    margin-left: 45px;
-    margin-right: 45px;
+nav{
+    position: relative;
+    top: 25px;
 }
 
-a{
-    color: white;
+nav > a{
     text-decoration: none;
-} 
-
-a:hover{
-    color: #697781;
+    color: lightgray;
+    margin-right: 55px;
+    margin-left: 30px;
 }
 
-.bgimg{
-    background-color:#2F2E2E;;
+nav > a:hover{
+    color: rgb(160, 160, 160);
+    transition-duration: 700ms;
+}
+
+#background-img{
+    border-radius: 5px;
+    position: relative;
+    top: 26px;
+    left: 450px;
+    background-color: #2F2E2E;
     width: 680px;
     height: 410px;
-    position: absolute;
-    top: 100px;
-    left: 480px;
 }
-
-img{
-    width: 600px;
-    height: 400px;
+#background-img > img{
     position: relative;
-    top: 1em;
-    left: 2em;
+    left: 40px;
+    width: 600px;
+    height: 380px;
 }
 
-img:hover{
+#background-img > img:hover{
     opacity: 0%;
     transition-duration: 700ms;
 }
 
+#second-section{
+    position: relative;
+    top: 335px;
+    background-color: #363321;
+    width: 100%;
+    height: 630px;
+}
+
+#second-section > h1{
+    position: relative;
+    top: 40px;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-weight: lighter;
+}
+
 .serv{
+    background-color: #363321;
+    width: 300px;
+    height: 475px;
+}
+
+.serv > h2{
+    position: relative;
+    top: 150px;
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+}
+
+.serv > ul{
+    position: relative;
+    top: 200px;
+    color: white;
+    text-align: center;
+}
+
+.serv > ul > li {
+    margin-top: 5px;
+    list-style: none;
+}
+
+#serv-1{
+    position: relative;
+    top: 68px;
+    left: 340px;
+}
+
+#serv-2{
+    position: relative;
+    left: 320px;
+    bottom: 235px;
+}
+
+#serv-2 > p{
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+
+#serv-3{
+    position: relative;
+    bottom: 710px;
+    left: 650px;
+}
+
+#serv-3 > p{
+    position: relative;
+    top: 200px;
+    text-align: center;
     color: white;
     font-size: 16px;
-    background-color: #363321;
-    width: 100vw;
+}
+
+#third-section{
+    position: relative;
+    top: 450px;
+    background-color: gray;
+    width: 100%;
     height: 630px;
-    margin-left: -8px;
-    position: absolute;
-    top: 700px;
 }
 
-h1{
+#third-section > #container{
+    position: relative;
+    top: 70px;
+    left: 450px;
+    background-color: white;
+    width: 660px;
+    height: 510px;
+    border-radius: 2px;
+}
+
+#container > h2{
+    position: relative;
+    top: 70px;
     text-align: center;
+    color: black;
+    font-size: 32px;
     font-weight: lighter;
 }
 
-h2{
-    font-weight: lighter;
-    font-size: 20px;
+#container > article > p{
+    color: #474747;
+    position: relative;
+    font-size: 17px;
+    top: 70px;
+    margin-top: 30px;
+    margin-left: 95px;
+    margin-right: 95px;
+    text-align: center;
 }
 
-.list{
-    list-style: none;
+#forth-section{
+    position: relative;
+    top: 550px;
+    background-color: #0D1C25;
+    width: 100%;
+    height: 630px;  
+}
+
+iframe{
+    position: relative;
+    left: 410px;
+    top: 50px;
+}
+#forth-section > span > h2{
+    position: relative;
+    left: 405px;
+    top: 30px;
+    font-size: 4em;
+    color: white;
+}
+
+#fifth-section{
+    position: relative;
+    top: 650px;
+    background-color: #832a07;
+    width: 100%;
+    height: 1000px;
+}
+
+#container-2{
+    position: relative;
+    left: 450px;
+    top: 150px;
+    background-color: #272C1C;
+    width: 670px;
+    height: 690px;
+}
+
+#container-2 > h2{
+    position: relative;
+    top: 50px;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#contatos > h3{
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    font-size: 16px;
+
+}
+
+#contatos{
+    position: relative;
+    top: 100px;
+    left: 50px;
+    background-color: #272C1C;
+    width: 290px;
+    height: 290px;
+}
+
+#contatos > p{
+    position: relative;
+    top: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: left;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+fieldset{
+    position: relative;
+    bottom: 400px;
+    left: 800px;
+    text-align: center;
+    width: 250px;
+    height: 360px;
+    background-color: white;
+}
+label{
+    position: relative;
+    top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.form{
+    width: 15rem;
+    margin-top: 10px;
+}
+
+button{
+    background-color: #FFE5EC;
+    position: relative;
+    top: 5px;
+    left: 90px;
+    font-weight: bold;
+    width: auto;
+    height: auto;
+    font-size: 16px;
+    border: 0;
+    padding: 7px;
+}
+
+#horario{
+    text-align: left;
+    position: relative;
+    left: 520px;
+    bottom: 370px;
+    background-color: #272C1C;
+    width: 300px;
+    height: 100px;
+
+}
+
+#horario > h3{
+    text-decoration: underline;
+    text-align: left;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#horario > p{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: left;
+    color: white;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+footer{
+    position: relative;
+    top: 600px;
+    background-color: #2F2E2E;
+    width: 100%;
+    height: 150px;
+}
+
+footer > p{
+    position: relative;
+    top: 60px;
+    left: 300px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+footer > span{
+    position: relative;
+    top: 30px;
+    left: 650px;
+    color: white;
+    font-size: 5em;
+    font-weight: bold;
+}
+
+#contatos > p > a{
+    color: white;
+    text-decoration: none;
 }

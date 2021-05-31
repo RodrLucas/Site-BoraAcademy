@@ -8,32 +8,105 @@
     <title>Bora Academy</title>
 </head>
 <body>
-    <div class="menu">
-        <ul class="menu1">
-            <li class="menu1"><a href="#">HOME</a></li>
-            <li class="menu1"><a href="#">SERVIÇOS</a></li>
-            <li class="menu1"><a href="#">A ESSÊNCIA BORA</a></li>
-            <li class="menu1"><a href="#">QUEM SOMOS</a></li>
-            <li class="menu1"><a href="#">CONTATO</a></li>
-        </ul>
-    </div>
-    <div class="bgimg">
-        <img src="../imagens/Transparente.png" alt="Logo BORA">
-    </div>
-    <div class="serv">
-        <h1>SERVIÇOS</h1>
-        <h2>TREINAMENTOS E <br> CERTIFICAÇÕES</h2>
-            <ul class="list">
-                <li>Vendas;</li>
-                <li>Liderança;</li>
-                <li>Coaching;</li>
-                <li>Comunicação;</li>
-                <li>Inteligência Emocional;</li>
-                <li>Programação Neurolinguística (PNL);</li>
-                <li>Gestão Comportamental;</li>
-                <li>Atendimento Humanizado;</li>
-                <li>Entre outros;</li>
-            </ul>
-    </div>
+    <header>
+        <nav>
+            <a href="#">HOME</a>
+            <a href="#">SERVIÇOS</a>
+            <a href="#">A ESSÊNCIA BORA!</a>
+            <a href="#">QUEM SOMOS</a>
+            <a href="#">CONTATO</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div id="background-img">
+                <img src="../imagens/Original-nova.png" alt="Logo Bora Academy">
+            </div>
+        </section>
+        <section id="second-section">
+            <h1>SERVIÇOS</h1>
+            <div class="serv" id="serv-1">
+                <h2>TREINAMENTOS E CERTIFICAÇÕES</h2>
+                <ul>
+                    <li>Vendas;</li>
+                    <li>Liderança;</li>
+                    <li>Coaching;</li>
+                    <li>Comunicação;</li>
+                    <li>Inteligência Emocional;</li>
+                    <li>Programação Neurolinguística (PNL);</li>
+                    <li>Gestão Comportamental;</li>
+                    <li>Atendimento Humanizado;</li>
+                    <li>Entre Outros;</li>
+                </ul>
+                <div class="serv" id="serv-2">
+                    <h2>MENTORIA SOB DEMANDA</h2>
+                    <p>Mentoria especializada para empresas e pessoas físicas.</p>
+                </div>
+                <div class="serv" id="serv-3">
+                    <h2>PALESTRAS E WORKSHOPS</h2>
+                    <p>Aplicação de Palestras e Workshops em todo o Brasil.</p>
+                </div>
+            </div>
+        </section>
+        <section id="third-section">
+            <div id="container">
+                <h2>QUEM SOMOS</h2>
+                <article>
+                    <p>A Bora Academy nasceu com a missão de integrar o conhecimento técnico com o capital humano. Sendo assim, através de ferramentas científicas, métodos diferenciados e cases existentes, nosso foco é capacitar e desenvolver nossos parceiros e clientes.</p>
+                    <p>Nossas soluções são elaboradas em cima das necessidades específicas dos clientes, atrelando as ferramentas BORA, expertise de nossos treinadores e todo conhecimento e experiência de nossos parceiros (você!).</p>
+                    <p><strong><em>O MAIS IMPORTANTE DA JORNADA PROFISSIONAL É O QUE APRENDEMOS E A MARCA QUE DEIXAMOS NAS PESSOAS!</em></strong></p>
+                    <p><strong>#BORA</strong></p>
+                </article>
+            </div>
+        </section>
+        <section id="forth-section">
+            <span><h2>A ESSÊNCIA #BORA!</h2></span>
+            <iframe width="740" height="450" src="https://www.youtube.com/embed/hz0OV6zaquk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        <section id="fifth-section">
+            <div id="container-2">
+                <h2>ENTRE EM CONTATO CONOSCO!</h2>
+                <div id="contatos">
+                        <h3>CONTATOS</h3>
+                        <p>Interlagos, São Paulo, SP.</p>
+                        <p>E-mail: central@boraacademy.com</p>
+                        <p>Tel: (11) 977375756</p>
+                        <p><a href="#">Ou clique ></a></p>
+                </div>
+            </div>
+            <form>
+                <fieldset>
+                    <div>
+                        <label>Nome Completo:</label> <br>
+                        <input class="form" type="text" name="nome" id="nome">
+                    </div>
+                    <div>
+                        <label>E-mail:</label> <br>
+                        <input class="form" type="email" name="email" id="email">
+                    </div>
+                    <div>
+                        <label>Telefone:</label> <br>
+                        <input class="form" type="number" name="telefone" id="telefone">
+                    </div>
+                    <div>
+                        <label>Digite sua mensagem abaixo:</label> <br>
+                        <textarea class="form" name="textarea" id="textarea cols="30" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <button>Enviar</button>
+                    </div>
+                </fieldset>
+            </form>
+            <div id="horario">
+                <h3>HORÁRIO DE FUNCIONAMENTO:</h3>
+                <p>Seg - Sex: 8:00 - 22:00 <br>Sábados: 8:00 - 20:00 <br> Domingos: 08:00 - 17:00
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Receba dicas diárias no INSTAGRAM!</p>
+        <span>#BORA</span>
+    </footer>
 </body>
 </html>
